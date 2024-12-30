@@ -7,7 +7,7 @@ with open("linear_regression_model.pkl", "rb") as f:
 
 app = Flask(__name__)
 
-
+print("wwlcome")
 @app.route("/predict", methods=["POST"])
 def predict():
     # Get the input data as JSON
