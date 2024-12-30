@@ -1,0 +1,7 @@
+>curl -X POST http://127.0.0.1:5000/mohan -H "Content-Type: application/json" -d '{"features":[[5],[6],[7]]}'
+
+pip install waitress
+
+Deployment Command:
+
+waitress-serve --host=127.0.0.1 --port=5000 app:app
