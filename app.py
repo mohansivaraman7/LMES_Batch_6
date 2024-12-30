@@ -1,10 +1,11 @@
-from flask import Flask, request, jsonify
 import pickle
+
+from flask import Flask, request, jsonify
 
 # Load the saved model
 with open("linear_regression_model.pkl", "rb") as f:
     model = pickle.load(f)
-print("Code by GK")
+print("Code by GK-Rao")
 
 app = Flask(__name__)
 
