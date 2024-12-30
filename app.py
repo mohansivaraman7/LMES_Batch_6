@@ -9,7 +9,7 @@ print("Code by GK-Rao")
 
 app = Flask(__name__)
 
-print("wwlcome")
+print("welcome by kanagaraj")
 @app.route("/predict", methods=["POST"])
 def predict():
     # Get the input data as JSON
